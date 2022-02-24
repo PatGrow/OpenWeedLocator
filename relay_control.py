@@ -50,6 +50,7 @@ class RelayControl:
     def relay_on(self, solenoidNumber, verbose=True):
         relay = self.solenoidDict[solenoidNumber]
         relay.on()
+        global count
 
         if verbose:
             print("Solenoid {} ON".format(solenoidNumber))
@@ -60,7 +61,7 @@ class RelayControl:
 
         if verbose:
             print("Solenoid {} OFF".format(solenoidNumber))
-
+            
     def beep(self, duration=0.2, repeats=2):
         self.buzzer.beep(on_time=duration, off_time=(duration / 2), n=repeats)
 

@@ -1,0 +1,7 @@
+2022-02-24 02:05:30.877825+00:00 nozzle: 3 | time: 1645668330.8776824 | location 0 | delay: 0 | duration: 0.15
+2022-02-24 02:05:31.236945+00:00 nozzle: 3 | time: 1645668331.2368495 | location 0 | delay: 0 | duration: 0.15
+2022-02-24 02:05:35.410838+00:00 nozzle: 3 | time: 1645668335.4107428 | location 0 | delay: 0 | duration: 0.15
+2022-02-24 02:05:37.683454+00:00 nozzle: 3 | time: 1645668337.6833305 | location 0 | delay: 0 | duration: 0.15
+2022-02-24 02:05:39.842914+00:00 nozzle: 2 | time: 1645668339.8428135 | location 0 | delay: 0 | duration: 0.15
+2022-02-24 02:05:40.422799+00:00 nozzle: 3 | time: 1645668340.422707 | location 0 | delay: 0 | duration: 0.15
+2022-02-24 02:05:49.068786+00:00 [INFO] Stopped. Approximate FPS: 8.76

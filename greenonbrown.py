@@ -392,7 +392,7 @@ def check_for_usb():
 if __name__ == "__main__":
     owl = Owl(video=False,
               videoFile=r'',
-              headless=True,
+              headless=False,
               recording=False,
               exgMin=25,
               exgMax=200,
@@ -411,9 +411,18 @@ if __name__ == "__main__":
              sample=False,
              sampleDim=1000,
              saveDir='/home/pi',
-             algorithm='exhsv',
+             algorithm='hsv',
              selectorEnabled=False,
-             camera_name='hsv',
+             camera_name='exg',
              minArea=10)
 
+             # at close: 
+             # all very similar
 
+             # at distance (table height):
+             # - HSV = bad
+             # - exHSV = not great
+             # - nexg = similar to exHSV
+             # - maxg = potential contender
+             # - exgr = lots of noise
+             # - exg = lots of noise
